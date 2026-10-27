@@ -401,7 +401,7 @@
         <h2>The Golden Calf</h2>
         <div class="work-grid">
           <div class="work-image">
-            <img src="the-golden-calf-web.jpg"
+            <img src="the-golden-calf-web.jpg" width="1200" height="1494"
      alt="The Golden Calf, an oil painting by Juliana Pogosian"
      loading="lazy"
      decoding="async">
@@ -478,13 +478,13 @@ The people on the canvas ceased to be mere images — to me, they became alive. 
       A glimpse into the creation of The Golden Calf — from the first layers of underpainting to the final details. Watch the painting gradually emerge through colour, texture, and light.
     </p>
   </div>
-  <video class="painting-process__player" controls playsinline preload="metadata">
+  <video class="painting-process__player" width="1080" height="1920" controls playsinline preload="metadata">
     <source src="painting-process-small.mp4" type="video/mp4">
     Your browser does not support video playback.
   </video>
 </div>
           <div class="story-image" style="margin-top: 36px;">
-  <img src="the-golden-calf-interior-web.jpg"
+  <img src="the-golden-calf-interior-web.jpg" width="1875" height="2500"
      alt="The Golden Calf displayed on canvas in the artist's studio"
      loading="lazy"
      decoding="async"
@@ -503,32 +503,32 @@ The people on the canvas ceased to be mere images — to me, they became alive. 
   <div class="process-grid">
 
     <div>
-      <img src="01-initial-sketch-web.jpg" alt="Initial concept sketch for The Golden Calf" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto;">
+      <img src="01-initial-sketch-web.jpg" width="900" height="1200" alt="Initial concept sketch for The Golden Calf" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto;">
       <p style="font-size: 12px; color: #b8b1a4;">01 — Initial Sketch</p>
       <p>Developing the visual concept for The Golden Calf.</p>
     </div>
     <div>
-      <img src="02-underpainting.jpg" alt="Early underpainting of The Golden Calf" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto;">
+      <img src="02-underpainting.jpg" width="1320" height="1760" alt="Early underpainting of The Golden Calf" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto;">
       <p style="font-size: 12px; color: #b8b1a4;">02 — The First Layers</p>
       <p>Establishing the composition, colour, and atmosphere.</p>
     </div>
     <div>
-      <img src="03-composition-and-form.jpg" alt="Developing the bull and architectural setting" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto;">
+      <img src="03-composition-and-form.jpg" width="1320" height="1760" alt="Developing the bull and architectural setting" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto;">
       <p style="font-size: 12px; color: #b8b1a4;">03 — Developing the Form</p>
       <p>Building the bull’s form within the architectural setting.</p>
     </div>
     <div>
-      <img src="04-golden-surface.jpg" alt="Applying gold tones and coin-like marks to the bull" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto;">
+      <img src="04-golden-surface.jpg" width="1320" height="1760" alt="Applying gold tones and coin-like marks to the bull" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto;">
       <p style="font-size: 12px; color: #b8b1a4;">04 — Building the Golden Surface</p>
       <p>Layering gold tones and coin-like marks across the surface.</p>
     </div>
     <div>
-      <img src="05-final-details.jpg" alt="Close-up of the details of the golden bull" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto;">
+      <img src="05-final-details.jpg" width="1320" height="1760" alt="Close-up of the details of the golden bull" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto;">
       <p style="font-size: 12px; color: #b8b1a4;">05 — Refining the Details</p>
       <p>Refining the highlights, textures, and smaller details.</p>
     </div>
     <div>
-      <img src="06-completed-painting.jpg" alt="The artist working on The Golden Calf" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto;">
+      <img src="06-completed-painting.jpg" width="960" height="1280" alt="The artist working on The Golden Calf" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto;">
       <p style="font-size: 12px; color: #b8b1a4;">06 — Final Touches</p>
       <p>Working on the final details of The Golden Calf.</p>
     </div>
@@ -539,7 +539,7 @@ The people on the canvas ceased to be mere images — to me, they became alive. 
  <div class="detail-gallery">
     <div>
         <div class="detail-frame">
-            <img src="bull-detail-web.jpg"
+            <img src="bull-detail-web.jpg" width="2023" height="2500"
      alt="Detail of the golden bull in The Golden Calf"
      loading="lazy"
      decoding="async"
@@ -549,7 +549,7 @@ The people on the canvas ceased to be mere images — to me, they became alive. 
     </div>
     <div>
         <div class="detail-frame">
-            <img src="crowd-detail-web.jpg"
+            <img src="crowd-detail-web.jpg" width="1536" height="1898"
      alt="Detail of the crowd moving toward the light"
      loading="lazy"
      decoding="async"
@@ -708,7 +708,7 @@ The people on the canvas ceased to be mere images — to me, they became alive. 
   </footer>
   <script>
     (() => {
-      const targets = document.querySelectorAll("main h1, main section h2, .hero-image, .work-image img, .story-image img, .process-grid > div, .detail-gallery > div, .portrait img");
+      const targets = document.querySelectorAll("main section h2, .work-image img, .story-image img, .process-grid > div, .detail-gallery > div, .portrait img");
       if (!("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
       const observer = new IntersectionObserver((entries, currentObserver) => {
         entries.forEach((entry) => {
